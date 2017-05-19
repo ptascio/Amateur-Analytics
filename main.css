@@ -1,0 +1,25 @@
+.targets {
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  display: flex;
+  margin: 10px;
+  background: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container div:first-child {
+  background: red;
+}
+
+.container div:last-child {
+  background: green;
+}
+
+.container div:nth-child(3) {
+  background: yellow;
+}
